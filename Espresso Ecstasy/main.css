@@ -1,0 +1,142 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-images {
+    animation: slide 60s linear infinite;
+  }
+  
+  .slider-image {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+table {
+    width: 20%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: cursive;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  td{
+    background-color: #2F4F4F;
+    color: silver;
+  }
+
+  th {
+    background-color:#8B4513;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('images/background.jpeg'); /* Replace with the actual path or URL of your image */
+    background-size: cover; /* This property ensures that the background image covers the entire element */
+   /* This property centers the background image */
+    height: 100vh; /* This ensures the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    
+    box-shadow: 0 0 20px white;
+  }
+
+  .about-us{
+   background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,5,249,1) 0%, rgba(0,212,255,1) 100%);
+   text-align: center;
+   
+   
+   color:white;
+   text-shadow: 
+        4px 4px 4px rgba(0, 0, 0, 0.3),
+        8px 8px 8px rgba(0, 0, 0, 0.2),
+        12px 12px 12px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+  
+
+  }
+ .intro-header{
+    background-color: yellow;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: Chalkduster, fantasy;
+ }
+ .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+  
+    padding: 10px; /* Add padding for better visibility */
+  }
+  .about-p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .contact-form{
+    text-align: center;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .bottom{
+    font-size: 18px;
+    background-color:black;
+    color: white;;
+  }
+  fieldset {
+    width: 20%; /* Adjust the width as needed */
+    margin: 0 auto;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,9,215,1) 0%, rgba(244,0,255,1) 53%);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li::before {
+  content: "\2615"; /* Unicode for coffee emoji */
+  display: inline-block;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
+a {
+  text-decoration: none;
+  color: black; /* Adjust link color as needed */
+  
+}
+a:hover{
+  color: blue;;
+}
+hr {
+  border: none;
+  height: 20px; /* Adjust the height to accommodate the coffee beans */
+  background: url('images/coffee-beans.jpeg') repeat-x center; /* Replace with the path to your coffee beans image */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
